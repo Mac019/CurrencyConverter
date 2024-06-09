@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="Rency.css">
+</head>
+<body>
+    <div class="converter-container">
+        <h1>Currency Converter $</h1>
+        <div class="converter">
+            <input type="number" id="amount" placeholder="Amount" />
+            <select id="from-currency">
+                <!-- Options will be populated dynamically -->
+            </select>
+            <select id="to-currency">
+                <!-- Options will be populated dynamically -->
+            </select>
+            <button id="convert-button">Convert</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="Converter.js"></script>
+</body>
+</html>
